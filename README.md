@@ -13,3 +13,11 @@ La API ha de ser totalmente operativa, recuerda que has de seguir los pasos plan
 3. La entidades a definir deben cumplir las características definidas en el diagrama ER adjunto.
 4. Crea un super usuario llamado librero.
 5. Recuerda definir los endpoints necesarios para poder realizar el CRUD completo a ambas entidades.
+
+## Para crear el superusuario
+
+Desde `Git Bash`
+
+```shell
+winpty python manage.py createsuperuser
+```
